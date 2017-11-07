@@ -48,16 +48,16 @@
 /* Begin PBXFileReference section */
 		0D1AC726F9F18A03E0A9158E /* Pods_esw_food_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_esw_food_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		264E9859908CC8CBE48CC671 /* Pods-esw-food-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-esw-food-appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-esw-food-appUITests/Pods-esw-food-appUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2C505C8D1DB535590047C113 /* esw-food-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "esw-food-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C505C8D1DB535590047C113 /* HungryBears.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungryBears.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C505C901DB535590047C113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C505C941DB535590047C113 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		2C505C971DB535590047C113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C505C9C1DB535590047C113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C505C9E1DB535590047C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C505CA31DB535590047C113 /* esw-food-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "esw-food-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C505CA31DB535590047C113 /* HungryBearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryBearsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C505CA71DB535590047C113 /* esw_food_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esw_food_appTests.swift; sourceTree = "<group>"; };
 		2C505CA91DB535590047C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C505CAE1DB535590047C113 /* esw-food-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "esw-food-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C505CAE1DB535590047C113 /* HungryBearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryBearsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C505CB21DB535590047C113 /* esw_food_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esw_food_appUITests.swift; sourceTree = "<group>"; };
 		2C505CB41DB535590047C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C4BBE3637339AADD1CED9AC /* Pods_esw_food_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_esw_food_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,9 +120,9 @@
 		2C505C841DB535590047C113 = {
 			isa = PBXGroup;
 			children = (
-				2C505C8F1DB535590047C113 /* esw-food-app */,
-				2C505CA61DB535590047C113 /* esw-food-appTests */,
-				2C505CB11DB535590047C113 /* esw-food-appUITests */,
+				2C505C8F1DB535590047C113 /* HungryBears */,
+				2C505CA61DB535590047C113 /* HungryBearsTests */,
+				2C505CB11DB535590047C113 /* HungryBearsUITests */,
 				2C505C8E1DB535590047C113 /* Products */,
 				845913B27D58119C39C53D38 /* Pods */,
 				055892D445D65DE88B20BBF5 /* Frameworks */,
@@ -132,14 +132,14 @@
 		2C505C8E1DB535590047C113 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C505C8D1DB535590047C113 /* esw-food-app.app */,
-				2C505CA31DB535590047C113 /* esw-food-appTests.xctest */,
-				2C505CAE1DB535590047C113 /* esw-food-appUITests.xctest */,
+				2C505C8D1DB535590047C113 /* HungryBears.app */,
+				2C505CA31DB535590047C113 /* HungryBearsTests.xctest */,
+				2C505CAE1DB535590047C113 /* HungryBearsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C505C8F1DB535590047C113 /* esw-food-app */ = {
+		2C505C8F1DB535590047C113 /* HungryBears */ = {
 			isa = PBXGroup;
 			children = (
 				6F99B59E1DDC541A00986B5B /* Services */,
@@ -159,24 +159,27 @@
 				6F9BF43F1DDC67EF00D40710 /* SignupViewController.swift */,
 				6F5DA0121DDD721A00BFCCA9 /* ForgotVC.swift */,
 			);
+			name = HungryBears;
 			path = "esw-food-app";
 			sourceTree = "<group>";
 		};
-		2C505CA61DB535590047C113 /* esw-food-appTests */ = {
+		2C505CA61DB535590047C113 /* HungryBearsTests */ = {
 			isa = PBXGroup;
 			children = (
 				2C505CA71DB535590047C113 /* esw_food_appTests.swift */,
 				2C505CA91DB535590047C113 /* Info.plist */,
 			);
+			name = HungryBearsTests;
 			path = "esw-food-appTests";
 			sourceTree = "<group>";
 		};
-		2C505CB11DB535590047C113 /* esw-food-appUITests */ = {
+		2C505CB11DB535590047C113 /* HungryBearsUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2C505CB21DB535590047C113 /* esw_food_appUITests.swift */,
 				2C505CB41DB535590047C113 /* Info.plist */,
 			);
+			name = HungryBearsUITests;
 			path = "esw-food-appUITests";
 			sourceTree = "<group>";
 		};
@@ -211,9 +214,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C505C8C1DB535590047C113 /* esw-food-app */ = {
+		2C505C8C1DB535590047C113 /* HungryBears */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C505CB71DB535590047C113 /* Build configuration list for PBXNativeTarget "esw-food-app" */;
+			buildConfigurationList = 2C505CB71DB535590047C113 /* Build configuration list for PBXNativeTarget "HungryBears" */;
 			buildPhases = (
 				FB2C50F2A4BF52B6C7799C15 /* [CP] Check Pods Manifest.lock */,
 				2C505C891DB535590047C113 /* Sources */,
@@ -226,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = "esw-food-app";
+			name = HungryBears;
 			productName = "esw-food-app";
-			productReference = 2C505C8D1DB535590047C113 /* esw-food-app.app */;
+			productReference = 2C505C8D1DB535590047C113 /* HungryBears.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C505CA21DB535590047C113 /* esw-food-appTests */ = {
+		2C505CA21DB535590047C113 /* HungryBearsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C505CBA1DB535590047C113 /* Build configuration list for PBXNativeTarget "esw-food-appTests" */;
+			buildConfigurationList = 2C505CBA1DB535590047C113 /* Build configuration list for PBXNativeTarget "HungryBearsTests" */;
 			buildPhases = (
 				056363D2F1F98899209F3CE7 /* [CP] Check Pods Manifest.lock */,
 				2C505C9F1DB535590047C113 /* Sources */,
@@ -247,14 +250,14 @@
 			dependencies = (
 				2C505CA51DB535590047C113 /* PBXTargetDependency */,
 			);
-			name = "esw-food-appTests";
+			name = HungryBearsTests;
 			productName = "esw-food-appTests";
-			productReference = 2C505CA31DB535590047C113 /* esw-food-appTests.xctest */;
+			productReference = 2C505CA31DB535590047C113 /* HungryBearsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2C505CAD1DB535590047C113 /* esw-food-appUITests */ = {
+		2C505CAD1DB535590047C113 /* HungryBearsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C505CBD1DB535590047C113 /* Build configuration list for PBXNativeTarget "esw-food-appUITests" */;
+			buildConfigurationList = 2C505CBD1DB535590047C113 /* Build configuration list for PBXNativeTarget "HungryBearsUITests" */;
 			buildPhases = (
 				7AD50297175181C1964A966D /* [CP] Check Pods Manifest.lock */,
 				2C505CAA1DB535590047C113 /* Sources */,
@@ -268,9 +271,9 @@
 			dependencies = (
 				2C505CB01DB535590047C113 /* PBXTargetDependency */,
 			);
-			name = "esw-food-appUITests";
+			name = HungryBearsUITests;
 			productName = "esw-food-appUITests";
-			productReference = 2C505CAE1DB535590047C113 /* esw-food-appUITests.xctest */;
+			productReference = 2C505CAE1DB535590047C113 /* HungryBearsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -304,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C505C881DB535590047C113 /* Build configuration list for PBXProject "esw-food-app" */;
+			buildConfigurationList = 2C505C881DB535590047C113 /* Build configuration list for PBXProject "HungryBears" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -317,9 +320,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C505C8C1DB535590047C113 /* esw-food-app */,
-				2C505CA21DB535590047C113 /* esw-food-appTests */,
-				2C505CAD1DB535590047C113 /* esw-food-appUITests */,
+				2C505C8C1DB535590047C113 /* HungryBears */,
+				2C505CA21DB535590047C113 /* HungryBearsTests */,
+				2C505CAD1DB535590047C113 /* HungryBearsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -529,12 +532,12 @@
 /* Begin PBXTargetDependency section */
 		2C505CA51DB535590047C113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C505C8C1DB535590047C113 /* esw-food-app */;
+			target = 2C505C8C1DB535590047C113 /* HungryBears */;
 			targetProxy = 2C505CA41DB535590047C113 /* PBXContainerItemProxy */;
 		};
 		2C505CB01DB535590047C113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C505C8C1DB535590047C113 /* esw-food-app */;
+			target = 2C505C8C1DB535590047C113 /* HungryBears */;
 			targetProxy = 2C505CAF1DB535590047C113 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -654,7 +657,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "esw-food-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.robertmcknight.esw-food-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandriafinley-HungryBears";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -667,7 +670,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "esw-food-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.robertmcknight.esw-food-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandriafinley-HungryBears";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -683,7 +686,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertmcknight.esw-food-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esw-food-app.app/esw-food-app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HungryBears.app/HungryBears";
 			};
 			name = Debug;
 		};
@@ -697,7 +700,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.robertmcknight.esw-food-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esw-food-app.app/esw-food-app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HungryBears.app/HungryBears";
 			};
 			name = Release;
 		};
@@ -730,7 +733,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C505C881DB535590047C113 /* Build configuration list for PBXProject "esw-food-app" */ = {
+		2C505C881DB535590047C113 /* Build configuration list for PBXProject "HungryBears" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C505CB51DB535590047C113 /* Debug */,
@@ -739,7 +742,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C505CB71DB535590047C113 /* Build configuration list for PBXNativeTarget "esw-food-app" */ = {
+		2C505CB71DB535590047C113 /* Build configuration list for PBXNativeTarget "HungryBears" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C505CB81DB535590047C113 /* Debug */,
@@ -748,7 +751,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C505CBA1DB535590047C113 /* Build configuration list for PBXNativeTarget "esw-food-appTests" */ = {
+		2C505CBA1DB535590047C113 /* Build configuration list for PBXNativeTarget "HungryBearsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C505CBB1DB535590047C113 /* Debug */,
@@ -757,7 +760,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C505CBD1DB535590047C113 /* Build configuration list for PBXNativeTarget "esw-food-appUITests" */ = {
+		2C505CBD1DB535590047C113 /* Build configuration list for PBXNativeTarget "HungryBearsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C505CBE1DB535590047C113 /* Debug */,

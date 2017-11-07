@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C505C8C1DB535590047C113"
-               BuildableName = "esw-food-app.app"
-               BlueprintName = "esw-food-app"
-               ReferencedContainer = "container:esw-food-app.xcodeproj">
+               BuildableName = "HungryBears.app"
+               BlueprintName = "HungryBears"
+               ReferencedContainer = "container:HungryBears.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C505CA21DB535590047C113"
-               BuildableName = "esw-food-appTests.xctest"
-               BlueprintName = "esw-food-appTests"
-               ReferencedContainer = "container:esw-food-app.xcodeproj">
+               BuildableName = "HungryBearsTests.xctest"
+               BlueprintName = "HungryBearsTests"
+               ReferencedContainer = "container:HungryBears.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C505CAD1DB535590047C113"
-               BuildableName = "esw-food-appUITests.xctest"
-               BlueprintName = "esw-food-appUITests"
-               ReferencedContainer = "container:esw-food-app.xcodeproj">
+               BuildableName = "HungryBearsUITests.xctest"
+               BlueprintName = "HungryBearsUITests"
+               ReferencedContainer = "container:HungryBears.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C505C8C1DB535590047C113"
-            BuildableName = "esw-food-app.app"
-            BlueprintName = "esw-food-app"
-            ReferencedContainer = "container:esw-food-app.xcodeproj">
+            BuildableName = "HungryBears.app"
+            BlueprintName = "HungryBears"
+            ReferencedContainer = "container:HungryBears.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C505C8C1DB535590047C113"
-            BuildableName = "esw-food-app.app"
-            BlueprintName = "esw-food-app"
-            ReferencedContainer = "container:esw-food-app.xcodeproj">
+            BuildableName = "HungryBears.app"
+            BlueprintName = "HungryBears"
+            ReferencedContainer = "container:HungryBears.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C505C8C1DB535590047C113"
-            BuildableName = "esw-food-app.app"
-            BlueprintName = "esw-food-app"
-            ReferencedContainer = "container:esw-food-app.xcodeproj">
+            BuildableName = "HungryBears.app"
+            BlueprintName = "HungryBears"
+            ReferencedContainer = "container:HungryBears.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
