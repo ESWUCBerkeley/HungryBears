@@ -1,5 +1,5 @@
 # Welcome!
-We are Engineers for a Sustainable World, a student organization at UC Berkeley. Our goal as an organization is to motivate top engineering students to work on projects that improve the local communities as well as building general awareness and technological solutions to sustainability. 
+We are Engineers for a Sustainable World, a student organization at UC Berkeley. Our goal as an organization is to motivate top engineering students to work on projects that improve local communities, as well as building general awareness and technological solutions to sustainability. 
 ## Project Details
 HungryBears connects UC Berkeley students to leftover meals provided by student organizations at events on campus. Our app aims to reduce food waste, as well as connect students in need to quality food.
 ## Commits
