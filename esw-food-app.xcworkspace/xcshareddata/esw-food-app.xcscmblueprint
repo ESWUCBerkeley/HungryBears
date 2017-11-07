@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7E1571216680F8655044364C41C4E35042EB6ECF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7E1571216680F8655044364C41C4E35042EB6ECF" : 9223372036854775807,
+    "8C3EB0083FA91CA5435E24BD7C74765406DA5D88" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "542847EA-7C41-417D-AC72-7C70AE337B03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7E1571216680F8655044364C41C4E35042EB6ECF" : "esw-food-app\/",
+    "8C3EB0083FA91CA5435E24BD7C74765406DA5D88" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "esw-food-app",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "esw-food-app.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:rmcknight113\/esw-food-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E1571216680F8655044364C41C4E35042EB6ECF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ajfinley\/HungryBears",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C3EB0083FA91CA5435E24BD7C74765406DA5D88"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_esw_food_appUITests {
+  umbrella header "Pods-esw-food-appUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
